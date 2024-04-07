@@ -436,7 +436,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: blue;
 }
 .skills .progress .skill .val {
   float: right;
@@ -444,12 +444,15 @@ section {
 }
 .skills .progress-bar-wrap {
   background: #f2f3f5;
+  border-radius:10px;
 }
 .skills .progress-bar {
-  width: 1px;
-  height: 10px;
+  width: 5px;
+  height: 20px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: red;
+  border-radius:10px;
+
 }
 
 /*--------------------------------------------------------------
